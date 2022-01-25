@@ -400,18 +400,6 @@ adjustment_enabled = true
 [sub_resource type="Animation" id=23]
 length = 2.0
 loop = true
-tracks/0/type = "value"
-tracks/0/path = NodePath("AnimationPlayer/moss:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0, 1, 2 ),
-"transitions": PoolRealArray( 1, 1, 1 ),
-"update": 0,
-"values": [ Vector2( -154.986, 218.526 ), Vector2( -914.889, 224.472 ), Vector2( -154.986, 218.526 ) ]
-}
 
 [node name="Node2D" type="Node2D"]
 position = Vector2( 1, 0 )
@@ -811,14 +799,6 @@ environment = SubResource( 22 )
 autoplay = "Moss baby"
 playback_speed = 0.3
 "anims/Moss baby" = SubResource( 23 )
-
-[node name="moss" parent="AnimationPlayer" instance=ExtResource( 23 )]
-position = Vector2( -762.908, 223.283 )
-scale = Vector2( 6.3743, 4.90707 )
-collision_layer = 3
-collision_mask = 3
-group = "Player"
-Event = "test()"
 
 [node name="Area2D2" parent="." instance=ExtResource( 23 )]
 position = Vector2( -129.359, 207.727 )

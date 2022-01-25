@@ -1,0 +1,51 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Particles/Bamm_Projectile.png" type="Texture" id=1]
+
+[sub_resource type="GDScript" id=2]
+script/source = "extends Area2D
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+onready var TweenNode = $Tween
+var target
+# Called when the node enters the scene tree for the first time.
+func _ready():
+#	position += Vector2(-1008,-750)
+	position += Vector2(0,515)
+	TweenNode.interpolate_property(self,\"position\", position, (position + Vector2(2000,0)), 2.7,Tween.TRANS_LINEAR,Tween.EASE_IN)
+	TweenNode.interpolate_property(self,\"scale\", scale, (scale + Vector2(4,4)), .7,Tween.TRANS_LINEAR,Tween.EASE_IN)
+	TweenNode.start()
+#	print(global_position)
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+
+
+func _on_ColinProjectile_body_entered(body):
+	if body.is_in_group(\"Player\"):
+		Globals.player.damage(1)
+"
+
+[sub_resource type="CircleShape2D" id=1]
+
+[node name="ColinProjectile" type="Area2D"]
+script = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+modulate = Color( 0, 1, 1, 1 )
+self_modulate = Color( 0.0941176, 0.905882, 0.866667, 1 )
+position = Vector2( -1.19209e-07, 4.76837e-07 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 1 )
+offset = Vector2( -20, 40 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="Tween" type="Tween" parent="."]
+
+[connection signal="body_entered" from="." to="." method="_on_ColinProjectile_body_entered"]

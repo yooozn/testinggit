@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Spark Forest (Orchestral).mp3-e32a873ca9b65b5ba617044e1403ce5b.mp3str"
+
+[deps]
+
+source_file="res://Music/Spark Forest (Orchestral).mp3"
+dest_files=[ "res://.import/Spark Forest (Orchestral).mp3-e32a873ca9b65b5ba617044e1403ce5b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

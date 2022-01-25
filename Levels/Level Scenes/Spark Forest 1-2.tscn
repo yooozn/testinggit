@@ -1,0 +1,94 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Characters/Player/player2.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Levels/Tileset/SparkForestLevels/Spark Forest Levels.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Levels/Platforms.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Levels/Level Scenes/Area2D.gd" type="Script" id=4]
+[ext_resource path="res://Characters/New/Orbis Animations/mackenzie/Mackenzie_Idle_Crouch-1.png" type="Texture" id=5]
+[ext_resource path="res://Levels/Level Scenes/Portal.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Characters/light.png" type="Texture" id=7]
+[ext_resource path="res://Particles/Sam_Bam_Particles.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Particles/Clouds.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Particles/Leaves.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Levels/BG/BackroundSparkForest.tscn" type="PackedScene" id=11]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 627.07
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 5 ) ],
+"loop": true,
+"name": "Neutral",
+"speed": 5.0
+} ]
+
+[node name="Spark Forest 1-2" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1855.13, 1951.47 )
+
+[node name="Spark Forest Levels" parent="." instance=ExtResource( 2 )]
+cell_quadrant_size = 1
+cell_custom_transform = Transform2D( 63.805, 0, 0, 64, 0, 0 )
+occluder_light_mask = 0
+tile_data = PoolIntArray( 0, 2, 0 )
+
+[node name="Platforms" parent="." instance=ExtResource( 3 )]
+tile_data = PoolIntArray( 393218, 1, 0, 655362, 0, 0, 917513, 1, 0, 1114113, 0, 0, 1114119, 1, 0, 1245193, 0, 0 )
+
+[node name="MackenziePortal" type="Area2D" parent="."]
+position = Vector2( 471.724, 1836.52 )
+scale = Vector2( 0.4, 0.4 )
+script = ExtResource( 4 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MackenziePortal"]
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="MackenziePortal"]
+frames = SubResource( 2 )
+animation = "Neutral"
+playing = true
+flip_h = true
+
+[node name="Portals" type="Node" parent="."]
+
+[node name="1-1" parent="Portals" instance=ExtResource( 6 )]
+position = Vector2( 2031.86, 1669.78 )
+scale = Vector2( 1.52731, 3.23708 )
+next_scene_path = "res://Spark Forest.tscn"
+player_spawn_location = Vector2( 137.824, 1946.59 )
+
+[node name="1-3" parent="Portals" instance=ExtResource( 6 )]
+position = Vector2( 131.313, 2051.01 )
+rotation = -1.57204
+next_scene_path = "res://Levels/Level Scenes/Spark Forest 1-3.tscn"
+player_spawn_location = Vector2( 444.842, 115.632 )
+
+[node name="1-4" parent="Portals" instance=ExtResource( 6 )]
+position = Vector2( -8.18424, 190.038 )
+scale = Vector2( 2.49733, 3.46636 )
+next_scene_path = "res://Levels/Level Scenes/Spark Forest 1-4.tscn"
+player_spawn_location = Vector2( 1907.89, 1821.6 )
+
+[node name="Shading" type="Node" parent="."]
+
+[node name="Lights" type="Node2D" parent="Shading"]
+
+[node name="Light2D" type="Light2D" parent="Shading/Lights"]
+scale = Vector2( 3.65986, 6.20292 )
+texture = ExtResource( 7 )
+
+[node name="Particles" type="Node2D" parent="Shading"]
+
+[node name="Sam_Bam_Particles" parent="Shading/Particles" instance=ExtResource( 8 )]
+
+[node name="Clouds" parent="Shading/Particles" instance=ExtResource( 9 )]
+
+[node name="Leaves" parent="Shading/Particles" instance=ExtResource( 10 )]
+
+[node name="BackroundSparkForest" parent="." instance=ExtResource( 11 )]
+
+[node name="Character" type="Node2D" parent="."]
+
+[connection signal="body_entered" from="MackenziePortal" to="MackenziePortal" method="_on_MackenziePortal_body_entered"]

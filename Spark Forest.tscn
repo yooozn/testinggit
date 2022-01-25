@@ -1,0 +1,258 @@
+[gd_scene load_steps=32 format=2]
+
+[ext_resource path="res://Spark Forest.gd" type="Script" id=1]
+[ext_resource path="res://Characters/Player/player2.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Levels/Tileset/SparkForestLevels/Spark Forest Levels.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Levels/Tileset/Small_Platform_2.png" type="Texture" id=4]
+[ext_resource path="res://Levels/Tileset/Small_Platform.png" type="Texture" id=5]
+[ext_resource path="res://Levels/Tileset/trees/Platform.png" type="Texture" id=6]
+[ext_resource path="res://Levels/SparkForestTitle.gd" type="Script" id=7]
+[ext_resource path="res://Levels/Level Scenes/Portal.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Levels/BG/BackroundSparkForest.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Levels/Levers.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Levels/Door.tscn" type="PackedScene" id=11]
+[ext_resource path="res://TitleOfplaces/Spark_Forest_Title.png" type="Texture" id=12]
+[ext_resource path="res://SignPost.gd" type="Script" id=13]
+[ext_resource path="res://Levels/Sign_Post.png" type="Texture" id=14]
+[ext_resource path="res://Levels/Tileset/SparkForestLevels/Text/Controls_3.png" type="Texture" id=15]
+[ext_resource path="res://Door2.gd" type="Script" id=16]
+[ext_resource path="res://Levels/Tileset/SparkForestLevels/Door-7.png" type="Texture" id=17]
+[ext_resource path="res://Levels/Tileset/SparkForestLevels/Door-8.png" type="Texture" id=18]
+[ext_resource path="res://Levels/Tileset/SparkForestLevels/Door-2.png" type="Texture" id=19]
+[ext_resource path="res://Levels/Tileset/SparkForestLevels/Door-3.png" type="Texture" id=20]
+[ext_resource path="res://Levels/Tileset/SparkForestLevels/Door-5.png" type="Texture" id=21]
+[ext_resource path="res://Levels/Tileset/SparkForestLevels/Door-4.png" type="Texture" id=22]
+[ext_resource path="res://Levels/Tileset/SparkForestLevels/Door-6.png" type="Texture" id=23]
+[ext_resource path="res://Levels/Tileset/SparkForestLevels/Door-1.png" type="Texture" id=24]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+points = PoolVector2Array( 25.8452, 321.071, 58.2452, 287.471, 103.845, 271.871, 168.645, 267.071, 227.445, 270.671, 820.245, 270.671, 1093.85, 274.271, 1109.45, 316.271, 1086.65, 407.471, 1006.25, 575.471, 926.2, 616.271, 703, 607.871, 148.6, 593.471, 64.6, 473.471, 20.2, 399.071, 19, 336.671, 25, 335.471 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 143.426, 292.151, 117.026, 218.951, 139.826, 179.351, 378.626, 173.351, 1190.16, 172.151, 1228.23, 186.551, 1240.23, 230.951, 1221.03, 298.151, 1138.56, 479.951, 1052.16, 518.351, 782, 513.551, 334.226, 506.351, 291.2, 491.951, 203.6, 385.151, 196.4, 379.151 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+points = PoolVector2Array( 180.538, 134.29, 224.083, 132.217, 1814.53, 142.585, 1880.89, 161.247, 1905.77, 206.866, 1905.77, 258.706, 1876.74, 296.031, 76.8576, 306.399, 68.5633, 235.897, 74.784, 169.541, 118.33, 136.364 )
+
+[sub_resource type="TileSet" id=4]
+0/name = "Small_Platform_2.png 0"
+0/texture = ExtResource( 4 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 409, 470, 1139, 691 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape = SubResource( 1 )
+0/shape_one_way = false
+0/shape_one_way_margin = 1.0
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+0/z_index = 0
+1/name = "Small_Platform.png 1"
+1/texture = ExtResource( 5 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 276, 567, 1313, 785 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape = SubResource( 2 )
+1/shape_one_way = false
+1/shape_one_way_margin = 1.0
+1/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1/z_index = 0
+2/name = "Platform.png 2"
+2/texture = ExtResource( 6 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 50, 508, 1945, 1060 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape = SubResource( 3 )
+2/shape_one_way = false
+2/shape_one_way_margin = 1.0
+2/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+2/z_index = 0
+
+[sub_resource type="SpriteFrames" id=7]
+animations = [ {
+"frames": [ ExtResource( 24 ) ],
+"loop": true,
+"name": "Neutral",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 24 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 22 ), ExtResource( 21 ), ExtResource( 23 ), ExtResource( 17 ), ExtResource( 18 ) ],
+"loop": false,
+"name": "Open",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 205.245, 704.282 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 677.119, 776.16 )
+
+[node name="Spark Forest 1-1" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="TitleIntroduction" type="CanvasLayer" parent="."]
+script = ExtResource( 7 )
+
+[node name="SparkForest" type="TextureProgress" parent="TitleIntroduction"]
+modulate = Color( 1, 1, 1, 0 )
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 95.9776
+margin_top = -173.225
+margin_right = 2143.98
+margin_bottom = 1874.78
+rect_scale = Vector2( 0.402454, 0.431997 )
+texture_progress = ExtResource( 12 )
+fill_mode = 8
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Timer" type="Timer" parent="TitleIntroduction"]
+wait_time = 0.01
+autostart = true
+
+[node name="Timer2" type="Timer" parent="TitleIntroduction"]
+wait_time = 0.001
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1862.6, 1967.97 )
+z_index = 1
+
+[node name="Spark Forest Levels" parent="." instance=ExtResource( 3 )]
+tile_data = PoolIntArray( 0, 1, 0 )
+
+[node name="Platforms" type="TileMap" parent="."]
+scale = Vector2( 0.15, 0.15 )
+z_index = 1
+tile_set = SubResource( 4 )
+cell_size = Vector2( 1000, 600 )
+format = 1
+tile_data = PoolIntArray( 393219, 0, 0, 589834, 1, 0, 1179657, 1, 0 )
+
+[node name="Portals" type="Node2D" parent="."]
+
+[node name="Portal 1-2" parent="Portals" instance=ExtResource( 8 )]
+position = Vector2( 24.6684, 2105.96 )
+next_scene_path = "res://Levels/Level Scenes/Spark Forest 1-2.tscn"
+player_spawn_location = Vector2( 1956.66, 1957.71 )
+
+[node name="Portal 1-6" parent="Portals" instance=ExtResource( 8 )]
+position = Vector2( 2030.23, 1778.73 )
+scale = Vector2( 0.744, 1.859 )
+next_scene_path = "res://Levels/Level Scenes/Spark Forest 1-6.tscn"
+player_spawn_location = Vector2( 63.755, 1284.9 )
+
+[node name="Portal" parent="Portals" instance=ExtResource( 8 )]
+position = Vector2( 0, 2 )
+scale = Vector2( 1.44, 0.125 )
+next_scene_path = "res://Spark Forest.tscn"
+player_spawn_location = Vector2( 1088, 428 )
+
+[node name="BackroundSparkForest" parent="." instance=ExtResource( 9 )]
+
+[node name="World" parent="." instance=ExtResource( 10 )]
+position = Vector2( 165, 1399 )
+scale = Vector2( 0.23, 0.24 )
+
+[node name="Doors" type="Node2D" parent="."]
+
+[node name="Door to 1-2" parent="Doors" instance=ExtResource( 11 )]
+position = Vector2( 133.943, 1823.07 )
+scale = Vector2( 0.17, 0.26 )
+
+[node name="Door to 1-6" type="Node2D" parent="Doors"]
+position = Vector2( 1891.8, 1795.3 )
+scale = Vector2( -0.181949, 0.362092 )
+
+[node name="Doory" type="StaticBody2D" parent="Doors/Door to 1-6"]
+script = ExtResource( 16 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Doors/Door to 1-6/Doory"]
+frames = SubResource( 7 )
+animation = "Neutral"
+speed_scale = 2.0
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Doors/Door to 1-6/Doory"]
+position = Vector2( -531.199, -25.1754 )
+shape = SubResource( 8 )
+
+[node name="Signs" type="Node2D" parent="."]
+position = Vector2( -12, -3 )
+
+[node name="SignPost 1" type="Area2D" parent="Signs"]
+position = Vector2( 375.671, 1497.55 )
+scale = Vector2( 0.0858523, 0.0739352 )
+z_index = 3
+collision_layer = 2
+collision_mask = 2
+script = ExtResource( 13 )
+
+[node name="Sprite" type="Sprite" parent="Signs/SignPost 1"]
+texture = ExtResource( 14 )
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Signs/SignPost 1"]
+shape = SubResource( 5 )
+
+[node name="TextureProgress" type="TextureProgress" parent="Signs/SignPost 1"]
+modulate = Color( 1, 1, 1, 0 )
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -3037.82
+margin_top = -5218.57
+margin_right = -989.817
+margin_bottom = -3170.57
+rect_scale = Vector2( 2.97987, 3.43117 )
+value = 100.0
+texture_progress = ExtResource( 15 )
+fill_mode = 4
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Start" type="Timer" parent="Signs/SignPost 1"]
+wait_time = 0.001
+
+[node name="End" type="Timer" parent="Signs/SignPost 1"]
+wait_time = 0.001
+
+[node name="Timer" type="Timer" parent="Signs/SignPost 1"]
+
+[connection signal="timeout" from="TitleIntroduction/Timer" to="TitleIntroduction" method="_on_Timer_timeout"]
+[connection signal="timeout" from="TitleIntroduction/Timer2" to="TitleIntroduction" method="_on_Timer2_timeout"]
+[connection signal="body_entered" from="Signs/SignPost 1" to="Signs/SignPost 1" method="_on_SignPost_body_entered"]
+[connection signal="body_exited" from="Signs/SignPost 1" to="Signs/SignPost 1" method="_on_SignPost_body_exited"]
+[connection signal="timeout" from="Signs/SignPost 1/Start" to="Signs/SignPost 1" method="_on_Start_timeout"]
+[connection signal="timeout" from="Signs/SignPost 1/End" to="Signs/SignPost 1" method="_on_End_timeout"]
+[connection signal="timeout" from="Signs/SignPost 1/Timer" to="Signs/SignPost 1" method="_on_Timer_timeout"]

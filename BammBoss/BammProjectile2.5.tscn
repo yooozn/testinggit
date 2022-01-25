@@ -1,0 +1,70 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Particles/Bamm_Projectile.png" type="Texture" id=1]
+
+[sub_resource type="GDScript" id=2]
+script/source = "extends Node2D
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+var time = 0
+var target
+onready var TweenNode = $Tween
+var tick = 0
+var startingPos
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	target = Globals.player.position
+	startingPos = global_position
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+#	print(startingPos)
+#	target = Globals.player.get_node(\"Position2D\").global_position
+#	print(target)
+	time += delta
+	if time >= 2.5:
+		queue_free()
+#		get_parent()._toIdle()
+#	elif get_parent().state == 'idle' or get_parent().state == 'attacking':
+#		queue_free()
+	if tick == 0:
+		tick = 1
+		TweenNode.interpolate_property(self, \"position\", position, (position + Vector2(1700,0)), 1.8, Tween.TRANS_LINEAR, Tween.EASE_IN)
+		TweenNode.start()
+		TweenNode.interpolate_property(self, \"scale\", scale, Vector2(7,7), 1.8, Tween.TRANS_LINEAR,Tween.EASE_IN)
+		TweenNode.start()
+#		print(target)
+#	if time >= 1.5 and tick == 2:
+#		tick = 3
+#		TweenNode.interpolate_property(self, \"position\", position, startingPos, .2, Tween.TRANS_LINEAR, Tween.EASE_IN)
+#		TweenNode.start()
+
+func _on_Area2D_body_entered(body):
+	if body.is_in_group(\"Player\"):
+		body.damage(1)
+"
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 23.0217
+
+[node name="BammProjectile2" type="Node2D"]
+script = SubResource( 2 )
+
+[node name="Tween" type="Tween" parent="."]
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -4.6, 5.6 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 1 )
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]

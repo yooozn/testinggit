@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Rain Heavy Loud.mp3-6ebcd2ebe599b6bf9cf398f0e71d10ca.mp3str"
+
+[deps]
+
+source_file="res://Levels/BG/Rain Heavy Loud.mp3"
+dest_files=[ "res://.import/Rain Heavy Loud.mp3-6ebcd2ebe599b6bf9cf398f0e71d10ca.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

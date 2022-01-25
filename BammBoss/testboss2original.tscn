@@ -1,0 +1,3002 @@
+[gd_scene load_steps=102 format=2]
+
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-2.png" type="Texture" id=2]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-3.png" type="Texture" id=3]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-4.png" type="Texture" id=4]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-5.png" type="Texture" id=5]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-6.png" type="Texture" id=6]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-7.png" type="Texture" id=7]
+[ext_resource path="res://testingthings/EnemyHit.tres" type="Material" id=8]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-25.png" type="Texture" id=10]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-23.png" type="Texture" id=11]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-16.png" type="Texture" id=12]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-15.png" type="Texture" id=13]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-12.png" type="Texture" id=14]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-22.png" type="Texture" id=15]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-8.png" type="Texture" id=16]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-20.png" type="Texture" id=17]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-14.png" type="Texture" id=18]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-10.png" type="Texture" id=19]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-18.png" type="Texture" id=20]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-21.png" type="Texture" id=21]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-19.png" type="Texture" id=22]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-11.png" type="Texture" id=23]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-13.png" type="Texture" id=24]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-9.png" type="Texture" id=25]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-17.png" type="Texture" id=26]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Before_Battle-24.png" type="Texture" id=27]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_1-5.png" type="Texture" id=29]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_2-2.png" type="Texture" id=30]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_2-4.png" type="Texture" id=31]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_1-8.png" type="Texture" id=32]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_1-2.png" type="Texture" id=33]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_1-6.png" type="Texture" id=34]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_1-3.png" type="Texture" id=35]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_1-7.png" type="Texture" id=36]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_1-4.png" type="Texture" id=37]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_1-9.png" type="Texture" id=38]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_1-10.png" type="Texture" id=39]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_1-11.png" type="Texture" id=40]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_1-12.png" type="Texture" id=41]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_1-14.png" type="Texture" id=42]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_2-3.png" type="Texture" id=43]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_1-13.png" type="Texture" id=44]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-13.png" type="Texture" id=45]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-15.png" type="Texture" id=46]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4-1.png" type="Texture" id=47]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4-6.png" type="Texture" id=48]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-4.png" type="Texture" id=49]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-10.png" type="Texture" id=50]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4-3.png" type="Texture" id=51]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4-8.png" type="Texture" id=52]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4-9.png" type="Texture" id=53]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4-5.png" type="Texture" id=54]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4.5-3.png" type="Texture" id=55]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-12.png" type="Texture" id=56]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4.5-4.png" type="Texture" id=57]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4.5-5.png" type="Texture" id=58]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4-7.png" type="Texture" id=59]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4-4.png" type="Texture" id=60]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4.5-6.png" type="Texture" id=61]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4-2.png" type="Texture" id=62]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-6.png" type="Texture" id=63]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4.5-2.png" type="Texture" id=64]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-5.png" type="Texture" id=65]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_2-5.png" type="Texture" id=66]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-14.png" type="Texture" id=67]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-2.png" type="Texture" id=68]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-9.png" type="Texture" id=69]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-11.png" type="Texture" id=70]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_2-7.png" type="Texture" id=71]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_2-8.png" type="Texture" id=72]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_2-6.png" type="Texture" id=73]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-8.png" type="Texture" id=74]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-16.png" type="Texture" id=75]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-7.png" type="Texture" id=76]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_3-3.png" type="Texture" id=77]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Idle-2.png" type="Texture" id=78]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4.5-8.png" type="Texture" id=79]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Attack_4.5-7.png" type="Texture" id=80]
+[ext_resource path="res://Characters/New/Orbis Animations/bamm/Bamm_Idle_Blurry.png" type="Texture" id=81]
+
+[sub_resource type="GDScript" id=23]
+script/source = "extends Area2D
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+var rng = RandomNumberGenerator.new()
+var target = Vector2()
+var player = null
+var health = 20
+onready var _anim_player = get_parent().get_node(\"AnimationPlayer\")
+onready var shader = $AnimatedSprite.material
+onready var TweenNode = $Tween
+var state
+var canDamage = false
+var inRange = false
+var immunity = false
+var direction = null
+
+var targetPosX
+var targetPosY
+var targetPos
+
+var idlecount = 1
+var count = 0
+
+var posInstance
+
+var random
+var randomNot = 0
+var just_hit = false
+
+onready var projectile = preload(\"res://BammBoss/BammProjectile.tscn\")
+onready var projectile2 = preload(\"res://BammBoss/BammProjectile2.tscn\")
+onready var projectile3 = preload(\"res://BammBoss/BammProjectile2.5.tscn\")
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	rng.randomize()
+	_anim_player.play(\"Idle\")
+#	state = 'idle'
+
+
+func _process(delta):
+#	print(direction)
+#	print(targetPos)
+#	print(direction)
+	if player:
+		target = player.position
+	if health == 0:
+		queue_free()
+	if canDamage == true and inRange == true and immunity == false:
+		player.damage(1)
+		canDamage = false
+		immunity = true
+		yield(get_tree().create_timer(1),\"timeout\")
+		immunity = false
+		if inRange == true:
+			canDamage = true
+		else:
+			canDamage = false
+	if state == 'idle':
+#		player = Globals.player
+		print(\"IDLE POSITION\" + str(position))
+		count = 0
+		state = 'attacking'
+		_anim_player.play(\"IdleInvisible\")
+		yield(get_tree().create_timer(idlecount),\"timeout\")
+		idlecount -= .07
+		print(\"idle\" + str(idlecount))
+		targetPosX = target.x
+		targetPos = target
+		attack()
+#		print(targetPos)
+#		print(position.x)
+#		yield(get_tree().create_timer(2),\"timeout\")
+		#print(\"attacking\")
+		
+
+func _on_Detection_Range_body_entered(body):
+	print(\"entereddd\")
+	if body.is_in_group(\"Player\"):
+		$\"Detection Range/CollisionShape2D\".set_deferred(\"disabled\", true)
+		player = body
+		_anim_player.play(\"Start\")
+		yield(get_tree().create_timer(2.3),\"timeout\")
+		_anim_player.play(\"DisappearUp\")
+		state = 'idle'
+		print(\"PLAYERRRRRRRRR\")
+#		print(\"entered\")
+		#print(\"detectionRange\")
+
+func damage(damage):
+	health -= 1
+	shader.set_shader_param(\"flash_modifier\", 1)
+	yield(get_tree().create_timer(.07),\"timeout\")
+	shader.set_shader_param(\"flash_modifier\", 0)
+
+func _on_Boss_body_entered(body):
+	if body.is_in_group(\"Player\"):
+		canDamage = true
+		inRange = true
+
+
+func _on_Boss_body_exited(body):
+	if body.is_in_group(\"Player\"):
+		inRange = false
+
+func _AppearUp():
+	if state == 'attacking':
+		state = 'attacking2'
+		if random == 1:
+			print(\"ATTACK 1\")
+			if direction == 'right':
+				TweenNode.interpolate_property(self, \"position\", position, (position + Vector2(-70, -240)), .3,Tween.TRANS_LINEAR,Tween.EASE_IN)
+				TweenNode.start()
+				yield(get_tree().create_timer(.55),\"timeout\")
+	#			print(\"should print after\")
+				_Transform()
+				_anim_player.play(\"Attack1 Right\")
+				yield(get_tree().create_timer(.85),\"timeout\")
+				state = 'idle'
+			elif direction == 'left':
+				TweenNode.interpolate_property(self, \"position\", position, (position + Vector2(70, -250)), .3,Tween.TRANS_LINEAR,Tween.EASE_IN)
+				TweenNode.start()
+				yield(get_tree().create_timer(.55),\"timeout\")
+	#			print(\"should print after\")
+				_Transform()
+				_anim_player.play(\"Attack1\")
+				yield(get_tree().create_timer(.85),\"timeout\")
+				state = 'idle'
+			print(\"ATTACK 1 POSITION\" + str(position))
+		#	if !_anim_player.current_animation == \"Attack1\":
+		#		state = 'idle'
+		#		print(\"appearup\")
+		#	elif !_anim_player.current_animation == \"Attack1 Right\":
+		#		state = 'idle'
+	#		print(\"should print before\")
+	#		yield(get_tree().create_timer(1.4),\"timeout\")
+	#		state = 'idle'
+	#		print(\"should print after after\")
+		#Maybe random number choosing how many projectiles it shoots out, how many times animations repeats, and a count method counting each itme
+		elif random == 3:
+			print(\"ATTACK 3\")
+			TweenNode.interpolate_property(self, \"position\", position, Vector2(0,0), 1, Tween.TRANS_LINEAR, Tween.EASE_IN)
+			TweenNode.start()
+			yield(get_tree().create_timer(1),\"timeout\")
+			_anim_player.play(\"Attack 4\")
+		elif random == 4:
+			print(\"ATTACK 4\")
+			TweenNode.interpolate_property(self, \"position\", Vector2(0,0), Vector2(0, -150), .8, Tween.TRANS_LINEAR, Tween.EASE_IN)
+			TweenNode.start()
+			yield(get_tree().create_timer(1),\"timeout\")
+			position += Vector2(-310,30)
+			_anim_player.play(\"Attack3\")
+			yield(get_tree().create_timer(1.8),\"timeout\")
+			_anim_player.play(\"Attack3 Left\")
+			yield(get_tree().create_timer(1.8),\"timeout\")
+			state = 'idle'
+		elif random == 5:
+			print(\"ATTACK 5\")
+			TweenNode.interpolate_property(self, \"position\", position, Vector2(0,0), 1, Tween.TRANS_LINEAR, Tween.EASE_IN)
+			TweenNode.start()
+			yield(get_tree().create_timer(1),\"timeout\")
+			_anim_player.play(\"Attack 5\")
+			yield(get_tree().create_timer(2),\"timeout\")
+			_anim_player.play(\"Attack 5\")
+			yield(get_tree().create_timer(2),\"timeout\")
+			_anim_player.play(\"Attack 5\")
+			yield(get_tree().create_timer(2), \"timeout\")
+			state = 'idle'
+func _AppearDown():
+	if state == 'attacking':
+		state = 'attacking2'
+		print(\"ATTACK 2\")
+		posInstance = position
+		if direction == 'right':
+#			TweenNode.interpolate_property(self, \"position\", position, (posInstance + Vector2(-70, 150)), .3,Tween.TRANS_LINEAR,Tween.EASE_IN)
+#			TweenNode.start()
+			TweenNode.interpolate_property(self, \"position\", position, (posInstance + Vector2(100, -150)), .3,Tween.TRANS_LINEAR,Tween.EASE_IN)
+			TweenNode.start()
+			yield(get_tree().create_timer(.5),\"timeout\")
+			_Transform()
+			_anim_player.play(\"Attack2 Right\")
+			yield(get_tree().create_timer(.5),\"timeout\")
+#			TweenNode.interpolate_property(self, \"position\", position, (posInstance + Vector2(-1000,-600)), .1, Tween.TRANS_LINEAR,Tween.EASE_IN)
+#			TweenNode.start()
+			TweenNode.interpolate_property(self, \"position\", position, (posInstance + Vector2(-1600,0)), .7, Tween.TRANS_LINEAR,Tween.EASE_IN)
+			TweenNode.start()
+			yield(get_tree().create_timer(1),\"timeout\")
+			state = 'idle'
+		elif direction == 'left':
+			TweenNode.interpolate_property(self, \"position\", position, (posInstance + Vector2(-100, -150)), .3,Tween.TRANS_LINEAR,Tween.EASE_IN)
+			TweenNode.start()
+			yield(get_tree().create_timer(.5),\"timeout\")
+			_Transform()
+			_anim_player.play(\"Attack2\")
+			yield(get_tree().create_timer(.5),\"timeout\")
+			TweenNode.interpolate_property(self, \"position\", position, (posInstance + Vector2(1600,0)), .7,Tween.TRANS_LINEAR,Tween.EASE_IN)
+			TweenNode.start()
+			yield(get_tree().create_timer(1),\"timeout\")
+			state = 'idle'
+		print(\"ATTACK 2 POSITION\" + str(position))
+	#	if !_anim_player.current_animation == \"Attack1\":
+	#		state = 'idle'
+	#		print(\"appearup\")
+	#	elif !_anim_player.current_animation == \"Attack1 Right\":
+	#		state = 'idle'
+#		yield(get_tree().create_timer(2.1),\"timeout\")
+#		#print(\"start\")
+#		state = 'idle'
+
+func _BlinkUp():
+	posInstance = position
+	if direction == 'right':
+		TweenNode.interpolate_property(self, \"position\", position, (posInstance + Vector2(-70, -150)), .3,Tween.TRANS_LINEAR,Tween.EASE_IN)
+		TweenNode.start()
+	elif direction == 'left':
+		TweenNode.interpolate_property(self, \"position\", position, (posInstance + Vector2(70, -150)), .3,Tween.TRANS_LINEAR,Tween.EASE_IN)
+		TweenNode.start()
+
+func _Transform():
+	posInstance = position
+	if direction == 'right':
+		self.position = posInstance + Vector2(-100, 0)
+	elif direction == 'left':
+		self.position = posInstance - Vector2(-100,0)
+
+func _TransformReset():
+	posInstance = position
+	if direction == 'right':
+		self.position = posInstance + Vector2(100,0)
+	elif direction == 'left':
+		self.position = posInstance - Vector2(100,0)
+
+func _idle():
+	state = 'idle'
+
+func _Projectile():
+	print(\"projectile\")
+	var proj = projectile.instance()
+	add_child(proj)
+	proj.global_position = Globals.player.global_position + Vector2(rng.randi_range(-350, 350), rng.randi_range(-350, -500))
+	var proj1 = projectile.instance()
+	add_child(proj1)
+	proj1.global_position = Globals.player.global_position + Vector2(rng.randi_range(-350, 350), rng.randi_range(-350, -500))
+	var proj2 = projectile.instance()
+	add_child(proj2)
+	proj2.global_position = Globals.player.global_position + Vector2(rng.randi_range(-350, 350), rng.randi_range(-350, -500))
+	var proj3 = projectile.instance()
+	add_child(proj3)
+	proj3.global_position = Globals.player.global_position + Vector2(rng.randi_range(-350, 350), rng.randi_range(-350, -500))
+	var proj4 = projectile.instance()
+	add_child(proj4)
+	proj4.global_position = Globals.player.global_position + Vector2(rng.randi_range(-350, 350), rng.randi_range(-350, -500))
+func _toIdle():
+	state = 'idle'
+
+func _ProjAttack2():
+	var proj = projectile2.instance()
+	get_parent().add_child(proj)
+	proj.position = $AnimatedSprite.position + Vector2(-90,15)
+	var proj2 = projectile3.instance()
+	get_parent().add_child(proj2)
+	proj2.position = $AnimatedSprite.position + Vector2(90,15)
+
+func attack():
+	random = rng.randi_range(1,5)
+	if random == 1 and randomNot != 1:
+		randomNot = 1
+		if (targetPosX - $AnimatedSprite.global_position.x) > 1:
+			position = (targetPos + Vector2(-400, -400))
+			direction = 'right'
+			_anim_player.play(\"AppearUp\")
+			#print(\"right\")
+		else:
+			position = (targetPos + Vector2(-1000, -400))
+			direction = 'left'
+			_anim_player.play(\"AppearUpFlip\")
+			#print(\"left\")
+	elif random == 1 and randomNot == 1:
+		attack()
+	elif random == 2 and randomNot != 2:
+		randomNot = 2
+		if (target.x - $AnimatedSprite.global_position.x) > 1:
+			position = (targetPos + Vector2(-400, -400))
+			direction = 'right'
+			_anim_player.play(\"AppearDown\")
+			#print(\"right\")
+		else:
+			position = (targetPos + Vector2(-1000, -400))
+			direction = 'left'
+			_anim_player.play(\"AppearDownFlip\")
+			#print(\"left\")
+	elif random == 2 and randomNot == 2:
+		attack()
+	elif random == 3 and randomNot != 3:
+		randomNot = 3
+		_anim_player.play(\"AppearUp\")
+	elif random == 3 and randomNot == 3:
+		attack()
+	elif random == 4 and randomNot != 4:
+		randomNot = 4
+		_anim_player.play(\"AppearUp\")
+	elif random == 4 and randomNot == 4:
+		attack()
+	elif random == 5 and randomNot != 5:
+		randomNot = 5
+		_anim_player.play(\"AppearUp\")
+	elif random == 5 and randomNot == 5:
+		attack()
+"
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 46, 67 )
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 65.5, 43.875 )
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 78 ) ],
+"loop": false,
+"name": "Idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 68 ), ExtResource( 77 ), ExtResource( 49 ), ExtResource( 65 ), ExtResource( 63 ), ExtResource( 76 ), ExtResource( 74 ), ExtResource( 69 ), ExtResource( 50 ), ExtResource( 70 ), ExtResource( 56 ), ExtResource( 45 ), ExtResource( 67 ), ExtResource( 46 ), ExtResource( 75 ) ],
+"loop": true,
+"name": "Attack3",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 81 ) ],
+"loop": false,
+"name": "IdleBlurry",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 47 ), ExtResource( 62 ), ExtResource( 51 ), ExtResource( 60 ), ExtResource( 54 ), ExtResource( 48 ), ExtResource( 59 ), ExtResource( 52 ), ExtResource( 53 ) ],
+"loop": true,
+"name": "Attack4",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 33 ), ExtResource( 35 ), ExtResource( 37 ), ExtResource( 29 ), ExtResource( 34 ), ExtResource( 36 ), ExtResource( 32 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 44 ), ExtResource( 42 ) ],
+"loop": false,
+"name": "Attack1",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 16 ), ExtResource( 25 ), ExtResource( 19 ), ExtResource( 23 ), ExtResource( 14 ), ExtResource( 24 ), ExtResource( 18 ), ExtResource( 13 ), ExtResource( 12 ), ExtResource( 26 ), ExtResource( 20 ), ExtResource( 22 ), ExtResource( 17 ), ExtResource( 21 ), ExtResource( 15 ), ExtResource( 11 ), ExtResource( 27 ), ExtResource( 10 ) ],
+"loop": false,
+"name": "Start",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 64 ), ExtResource( 55 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 61 ), ExtResource( 80 ), ExtResource( 79 ) ],
+"loop": true,
+"name": "Attack5",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 30 ), ExtResource( 43 ), ExtResource( 31 ), ExtResource( 66 ), ExtResource( 73 ), ExtResource( 71 ), ExtResource( 72 ) ],
+"loop": false,
+"name": "Attack2",
+"speed": 12.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 404.5, 148 )
+
+[sub_resource type="Animation" id=14]
+resource_name = "AppearDown"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "IdleBlurry" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss/AnimatedSprite:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/Swords:disabled")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.3, 0.3 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/AnimatedSprite:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/5/type = "method"
+tracks/5/path = NodePath("Boss")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "_AppearDown"
+} ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Body:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 770, 510 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Body:disabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/AnimatedSprite:visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=15]
+resource_name = "AppearDownFlip"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "IdleBlurry" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss/AnimatedSprite:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/Swords:disabled")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.3, 0.3 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/AnimatedSprite:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/5/type = "method"
+tracks/5/path = NodePath("Boss")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "_AppearDown"
+} ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Body:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 745, 510 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Body:disabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/AnimatedSprite:visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=11]
+resource_name = "AppearUp"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "IdleBlurry" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss/AnimatedSprite:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/Swords:disabled")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.3, 0.3 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/AnimatedSprite:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/5/type = "method"
+tracks/5/path = NodePath("Boss")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "_AppearUp"
+} ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Body:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 770, 510 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Body:disabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/AnimatedSprite:visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=12]
+resource_name = "AppearUpFlip"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "IdleBlurry" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss/AnimatedSprite:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/Swords:disabled")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.3, 0.3 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/AnimatedSprite:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/5/type = "method"
+tracks/5/path = NodePath("Boss")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "_AppearUp"
+} ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Body:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 750, 510 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Body:disabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/AnimatedSprite:visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=19]
+resource_name = "Attack 4"
+length = 0.7
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:playing")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss/AnimatedSprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 1, 2, 3, 4, 5, 6, 7 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Attack4" ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.01 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 19, 20 ), Vector2( 19, 133 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss:scale")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Boss:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.01 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Swords:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0.01 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 737, 386.938 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Body:position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 0.01 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 744.02, 495.506 ), Vector2( 728.5, 300 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/Body:scale")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Boss/Body:shape:extents")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0, 0.01 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 94, 106 ), Vector2( 72.5, 106 ) ]
+}
+tracks/10/type = "method"
+tracks/10/path = NodePath("Boss")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0.69 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "_Projectile"
+} ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("Boss/Swords:shape:extents")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0.01 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 60, 66.9375 ) ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("Boss/Body:disabled")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 0.01 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/13/type = "value"
+tracks/13/path = NodePath("Boss/Swords:disabled")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/14/type = "value"
+tracks/14/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/keys = {
+"times": PoolRealArray( 0.01 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.35, 0.35 ) ]
+}
+
+[sub_resource type="Animation" id=22]
+resource_name = "Attack 5"
+step = 0.14
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Attack5" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss/AnimatedSprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.14, 0.28, 0.42, 0.56, 0.7, 0.84, 0.98 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5, 6, 6 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.42, 0.42 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 19, 59 ) ]
+}
+tracks/4/type = "method"
+tracks/4/path = NodePath("Boss")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0.98 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "_ProjAttack2"
+} ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Boss/AnimatedSprite:playing")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Swords:disabled")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Body:disabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/Body:shape:extents")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0, 0.56, 0.7 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 71.0281, 142.992 ), Vector2( 58.0713, 183.613 ), Vector2( 58.0713, 158.737 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Boss/Body:position")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0, 0.56, 0.7 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 741.025, 363.073 ), Vector2( 747.815, 348.895 ), Vector2( 746.999, 373.757 ) ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Boss/Body:rotation_degrees")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0, 0.56, 0.7 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 1.55179, 22.314, 1.87912 ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("Boss/Swords:shape:extents")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0, 0.56, 0.7, 0.84 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 28.6935, 128.574 ), Vector2( 28.6935, 128.574 ), Vector2( 28.6935, 265.221 ), Vector2( 19.2148, 310.23 ) ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("Boss/Swords:position")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 0, 0.56, 0.7, 0.84 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 733.56, 233.569 ), Vector2( 709.56, 233.569 ), Vector2( 752.206, 369.93 ), Vector2( 763.81, 279.757 ) ]
+}
+tracks/13/type = "value"
+tracks/13/path = NodePath("Boss/Swords:rotation_degrees")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/keys = {
+"times": PoolRealArray( 0, 0.56, 0.7, 0.84 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -88.2149, -34.3145, -88.057, -93.3448 ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "Attack1"
+length = 0.8
+step = 0.08
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Attack1" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss/AnimatedSprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.08, 0.16, 0.241536, 0.32, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/AnimatedSprite:playing")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.42, 0.42 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/Body:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.16, 0.32, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 528, 536 ), Vector2( 552, 532 ), Vector2( 625.5, 533.5 ), Vector2( 689.25, 528.5 ), Vector2( 758, 522 ), Vector2( 808, 514 ), Vector2( 840, 522 ), Vector2( 898, 514.75 ), Vector2( 968, 474 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Boss/Swords:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Swords:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 0.16, 0.24, 0.32, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 661.484, 502.783 ), Vector2( 716.5, 457.505 ), Vector2( 719.136, 453.575 ), Vector2( 790.552, 458.247 ), Vector2( 835.553, 448.851 ), Vector2( 825.826, 478.691 ), Vector2( 906.825, 460.794 ), Vector2( 957.445, 470.995 ), Vector2( 943.522, 384.572 ), Vector2( 997.513, 360.788 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Swords:shape:extents")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 0.16, 0.24, 0.32, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 65.5, 62.2175 ), Vector2( 65.5, 25.4946 ), Vector2( 65.5, 26.4251 ), Vector2( 91.681, 44.9337 ), Vector2( 87.7172, 31.3408 ), Vector2( 169.759, 16.8994 ), Vector2( 191.582, 18.6631 ), Vector2( 72.9961, 27.5022 ), Vector2( 71.4786, 84.5171 ), Vector2( 71.4786, 146.508 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/Swords:rotation_degrees")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0, 0.24, 0.32, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 34.0, 34.0, 34.0, 34.0, 90.2, 90.2, 90.2 ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Boss/AnimatedSprite:flip_h")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Boss/AnimatedSprite:modulate")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0, 0.72, 0.88 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/11/type = "method"
+tracks/11/path = NodePath("Boss")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"values": [  ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("Boss/AnimatedSprite:visible")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/13/type = "value"
+tracks/13/path = NodePath("Boss/Body:disabled")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/14/type = "value"
+tracks/14/path = NodePath("Boss/Body:shape:extents")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/keys = {
+"times": PoolRealArray( 0, 0.16, 0.32, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 104, 103 ), Vector2( 104, 113 ), Vector2( 83.5, 111.5 ), Vector2( 98.25, 116.5 ), Vector2( 85, 116.5 ), Vector2( 85, 116.5 ), Vector2( 85, 116.5 ), Vector2( 87, 131.75 ), Vector2( 87, 131.75 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+resource_name = "Attack1 Right"
+length = 0.8
+step = 0.08
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Attack1" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss/AnimatedSprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.08, 0.16, 0.241536, 0.32, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/AnimatedSprite:playing")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.42, 0.42 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/Body:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.16, 0.24, 0.32, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 981, 538.5 ), Vector2( 978.5, 546.5 ), Vector2( 992, 546 ), Vector2( 872, 546 ), Vector2( 840, 530 ), Vector2( 768, 515.75 ), Vector2( 728, 522 ), Vector2( 680, 544.375 ), Vector2( 672, 506 ), Vector2( 560, 474 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Boss/Swords:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Swords:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 0.16, 0.24, 0.32, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 812.5, 482 ), Vector2( 818.5, 496.708 ), Vector2( 824, 494.708 ), Vector2( 739.501, 458.221 ), Vector2( 685.61, 452.273 ), Vector2( 683.38, 479.186 ), Vector2( 612.958, 461.302 ), Vector2( 563.896, 483.062 ), Vector2( 573.458, 414.465 ), Vector2( 520.848, 413.43 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Swords:shape:extents")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 0.16, 0.24, 0.32, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 65.5, 40 ), Vector2( 79.5, 57.2916 ), Vector2( 93, 55.2916 ), Vector2( 86.5805, 40.5707 ), Vector2( 90.1373, 46.3243 ), Vector2( 181.244, 16.8994 ), Vector2( 192.708, 18.6631 ), Vector2( 72.9891, 41.9951 ), Vector2( 85.5465, 78.5116 ), Vector2( 92.5831, 145.048 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/Swords:rotation_degrees")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0, 0.16, 0.24, 0.32, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0, -32.5, -32.8, -35.8, -27.5, 90.2, 90.2, 90.2 ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Boss/AnimatedSprite:flip_h")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Boss/AnimatedSprite:modulate")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0, 0.72, 0.88 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/11/type = "method"
+tracks/11/path = NodePath("Boss")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"values": [  ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("Boss/Body:disabled")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/13/type = "value"
+tracks/13/path = NodePath("Boss/Body:shape:extents")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/keys = {
+"times": PoolRealArray( 0, 0.16, 0.24, 0.32, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 122, 123.5 ), Vector2( 85.5, 117.5 ), Vector2( 85.5, 117.5 ), Vector2( 85.5, 117.5 ), Vector2( 85.5, 117.5 ), Vector2( 85.5, 139.75 ), Vector2( 85.5, 139.75 ), Vector2( 85.5, 117.375 ), Vector2( 88.75, 152 ), Vector2( 88.75, 152 ) ]
+}
+
+[sub_resource type="Animation" id=16]
+resource_name = "Attack2"
+length = 1.05
+step = 0.085
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Attack2" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss/AnimatedSprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.085, 0.17, 0.255, 0.34, 0.425, 0.51 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5, 6 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/AnimatedSprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss/Body:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.085, 0.17, 0.255, 0.34, 0.425, 0.51 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 438, 545 ), Vector2( 486.5, 536.5 ), Vector2( 574, 538 ), Vector2( 610, 534 ), Vector2( 818.75, 503.5 ), Vector2( 894, 498 ), Vector2( 894, 498 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/Swords:shape:extents")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.085, 0.17, 0.255, 0.34, 0.425, 0.51 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 65.5, 22 ), Vector2( 65.5, 40 ), Vector2( 75.5, 46.5 ), Vector2( 132, 50.5 ), Vector2( 106.5, 40 ), Vector2( 106.5, 40 ), Vector2( 106.5, 40 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Boss/Swords:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.085, 0.17, 0.255, 0.34, 0.425, 0.51 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 572.5, 500 ), Vector2( 668.5, 570 ), Vector2( 710.5, 616.5 ), Vector2( 721, 620.5 ), Vector2( 975.5, 490 ), Vector2( 983.5, 490 ), Vector2( 983.5, 490 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Swords:rotation_degrees")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 0.085, 0.17, 0.34 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0, 0.0 ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Body:shape:extents")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 0.085, 0.17, 0.255, 0.34, 0.425, 0.51 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 135.5, 132 ), Vector2( 135.5, 117.5 ), Vector2( 135.5, 117.5 ), Vector2( 135.5, 117.5 ), Vector2( 172.25, 77.5 ), Vector2( 172.25, 77.5 ), Vector2( 172.25, 77.5 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/Body:disabled")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Boss/Swords:disabled")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=17]
+resource_name = "Attack2 Right"
+length = 1.05
+step = 0.085
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Attack2" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss/AnimatedSprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.17, 0.255, 0.34, 0.425, 0.51 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 2, 1, 4, 5, 6 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/AnimatedSprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss/Body:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.085, 0.17, 0.255, 0.34, 0.425 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1094, 552.25 ), Vector2( 1050.5, 540.5 ), Vector2( 958, 530 ), Vector2( 904.25, 531.25 ), Vector2( 701.375, 498.5 ), Vector2( 622, 498 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/Swords:shape:extents")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.085, 0.17, 0.255, 0.34 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 65.5, 40 ), Vector2( 85.3839, 15.3931 ), Vector2( 104.033, 20.1235 ), Vector2( 106.5, 25.0326 ), Vector2( 106.5, 40 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Boss/Swords:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.085, 0.17, 0.255, 0.34 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 900.5, 498 ), Vector2( 860.46, 554.816 ), Vector2( 816.533, 603.487 ), Vector2( 745.309, 605.01 ), Vector2( 543.5, 498 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Swords:rotation_degrees")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 0.085, 0.17, 0.255, 0.34 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -37.8, -36.0, -31.0, 0.0 ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Body:disabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/Swords:disabled")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Boss/Body:shape:extents")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0, 0.085, 0.17, 0.255, 0.34, 0.425 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 122, 125.25 ), Vector2( 134.5, 121.5 ), Vector2( 134.5, 121.5 ), Vector2( 156.75, 104.25 ), Vector2( 181.375, 77.5 ), Vector2( 181.375, 77.5 ) ]
+}
+
+[sub_resource type="Animation" id=18]
+resource_name = "Attack3"
+length = 1.8
+step = 0.066
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Attack3" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss/AnimatedSprite:playing")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/AnimatedSprite:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.066, 0.132, 0.198, 0.264, 0.33, 0.396, 0.462, 0.528, 0.594, 0.66, 0.726, 0.792, 0.858, 0.924, 0.99, 1.056, 1.122, 1.188, 1.254, 1.32, 1.386, 1.452, 1.518, 1.584, 1.65 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 10, 9, 8 ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.42, 0.42 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/Swords:shape:extents")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.066, 0.132, 0.198, 0.264, 0.33, 0.396, 0.462, 0.528, 0.594, 0.66, 0.726, 0.792, 0.858, 0.924, 0.99, 1.056, 1.122, 1.188, 1.254, 1.32, 1.386, 1.452, 1.518, 1.584, 1.65 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 65.5, 40 ), Vector2( 101, 40 ), Vector2( 101, 23.6183 ), Vector2( 101, 23.6183 ), Vector2( 101, 23.6183 ), Vector2( 116.841, 40.6696 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 186.737, 28.6483 ), Vector2( 186.737, 28.6483 ), Vector2( 186.737, 28.6483 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Boss/Swords:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.066, 0.132, 0.198, 0.264, 0.33, 0.396, 0.462, 0.528, 0.594, 0.66, 0.726, 0.792, 0.858, 0.924, 0.99, 1.056, 1.122, 1.188, 1.254, 1.32, 1.386, 1.452, 1.518, 1.584, 1.65 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1044.5, 498 ), Vector2( 1080, 498 ), Vector2( 1057.55, 306.284 ), Vector2( 961.549, 450.284 ), Vector2( 854.549, 163.284 ), Vector2( 754.391, 158.155 ), Vector2( 668.892, 453.007 ), Vector2( 620.892, 517.007 ), Vector2( 604.892, 277.007 ), Vector2( 532.892, 293.007 ), Vector2( 393.892, 429.007 ), Vector2( 737.892, 469.007 ), Vector2( 737.892, 469.007 ), Vector2( 737.892, 469.007 ), Vector2( 737.892, 469.007 ), Vector2( 737.892, 469.007 ), Vector2( 737.892, 469.007 ), Vector2( 737.892, 469.007 ), Vector2( 737.892, 469.007 ), Vector2( 737.892, 469.007 ), Vector2( 737.892, 469.007 ), Vector2( 737.892, 469.007 ), Vector2( 737.892, 469.007 ), Vector2( 446.383, 480.622 ), Vector2( 542.383, 368.622 ), Vector2( 614.383, 352.622 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Swords:rotation_degrees")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 0.066, 0.132, 0.198, 0.264, 0.33, 0.396, 0.462, 0.528, 0.594, 0.66, 0.726, 0.792, 0.858, 0.924, 0.99, 1.056, 1.122, 1.188, 1.254, 1.32, 1.386, 1.452, 1.518, 1.584, 1.65 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 15.5, -83.8, -104.592, -21.58, -21.58, -60.8676, -60.8676, -91.2999, -91.2999, -119.786, -28.555, -28.555, -28.555, -28.555, -28.555, -28.555, -28.555, -28.555, -28.555, -28.555, -28.555, -28.555, -121.472, -99.3388, -94.6549 ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Body:shape:extents")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 0.066, 0.132, 0.198, 0.264, 0.33, 0.396, 0.462, 0.528, 0.594, 0.66, 0.726, 0.792, 0.858, 0.924, 0.99, 1.056, 1.122, 1.188, 1.254, 1.32, 1.386, 1.452, 1.518, 1.584 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 121, 120.25 ), Vector2( 74, 112.75 ), Vector2( 75, 138 ), Vector2( 75, 138 ), Vector2( 75, 138 ), Vector2( 75, 138 ), Vector2( 80.5, 152.877 ), Vector2( 80.5, 152.877 ), Vector2( 80.5, 152.877 ), Vector2( 80.5, 152.877 ), Vector2( 107.008, 85.5365 ), Vector2( 138.171, 59.5784 ), Vector2( 74.4051, 59.5784 ), Vector2( 74.4051, 59.5784 ), Vector2( 74.4051, 59.5784 ), Vector2( 74.4051, 59.5784 ), Vector2( 74.4051, 59.5784 ), Vector2( 74.4051, 59.5784 ), Vector2( 74.4051, 59.5784 ), Vector2( 74.4051, 59.5784 ), Vector2( 74.4051, 59.5784 ), Vector2( 74.4051, 59.5784 ), Vector2( 74.4051, 59.5784 ), Vector2( 54.3238, 218.951 ), Vector2( 73.5409, 114.802 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/Body:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0, 0.066, 0.132, 0.198, 0.264, 0.33, 0.396, 0.462, 0.528, 0.594, 0.66, 0.726, 0.792, 0.858, 0.924, 0.99, 1.056, 1.122, 1.188, 1.254, 1.32, 1.386, 1.452, 1.518, 1.584 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1093, 557.25 ), Vector2( 974, 540.75 ), Vector2( 973, 466 ), Vector2( 925, 314 ), Vector2( 797, 330 ), Vector2( 725, 354 ), Vector2( 728.972, 284.604 ), Vector2( 664.972, 292.604 ), Vector2( 608.972, 492.604 ), Vector2( 576.972, 500.604 ), Vector2( 562.395, 571.491 ), Vector2( 536.141, 602.405 ), Vector2( 566.204, 597.176 ), Vector2( 566.204, 597.176 ), Vector2( 566.204, 597.176 ), Vector2( 566.204, 597.176 ), Vector2( 566.204, 597.176 ), Vector2( 566.204, 597.176 ), Vector2( 566.204, 597.176 ), Vector2( 566.204, 597.176 ), Vector2( 566.204, 597.176 ), Vector2( 566.204, 597.176 ), Vector2( 566.204, 597.176 ), Vector2( 594.966, 438.064 ), Vector2( 594.156, 551.727 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Boss/Body:rotation_degrees")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0, 0.066, 0.132, 0.198, 0.264, 0.33, 0.396, 0.462, 0.528, 0.594, 0.66, 0.726, 0.792, 0.858, 0.924, 0.99, 1.056, 1.122, 1.188, 1.254, 1.32, 1.386, 1.452, 1.518, 1.584 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 25.7848, 25.7848, 0.824419, -9.86662, -9.86662, -9.86662, -9.86662, -9.86662, -9.86662, -9.86662, -9.86662, -9.86662, -9.86662, -9.86662, -9.86662, -9.86662, -9.86662, 6.56144, -10.1886 ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Boss/AnimatedSprite:flip_h")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("Boss/Body:disabled")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("Boss/Swords:disabled")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=21]
+resource_name = "Attack3 Left"
+length = 1.8
+step = 0.066
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Attack3" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss/AnimatedSprite:playing")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/AnimatedSprite:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.066, 0.132, 0.198, 0.264, 0.33, 0.396, 0.462, 0.528, 0.594, 0.66, 0.726, 0.792, 0.858, 0.924, 0.99, 1.056, 1.122, 1.188, 1.254, 1.32, 1.386, 1.452, 1.518, 1.584, 1.65 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 10, 9, 8 ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.42, 0.42 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/Swords:shape:extents")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.066, 0.132, 0.198, 0.264, 0.33, 0.396, 0.462, 0.528, 0.594, 0.66, 0.726, 0.792, 0.858, 0.924, 0.99, 1.056, 1.122, 1.188, 1.254, 1.32, 1.386, 1.452, 1.518, 1.584, 1.65 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 65.5, 40 ), Vector2( 101, 40 ), Vector2( 101, 23.6183 ), Vector2( 152.229, 35.7068 ), Vector2( 101, 23.6183 ), Vector2( 116.841, 40.6696 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 116.841, 28.6483 ), Vector2( 186.737, 28.6483 ), Vector2( 186.737, 28.6483 ), Vector2( 186.737, 28.6483 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Boss/Swords:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.066, 0.132, 0.198, 0.264, 0.33, 0.396, 0.462, 0.528, 0.594, 0.66, 0.726, 0.792, 0.858, 0.924, 0.99, 1.056, 1.122, 1.188, 1.254, 1.32, 1.386, 1.452, 1.518, 1.584, 1.65 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 400, 498 ), Vector2( 416, 498 ), Vector2( 465.549, 306.284 ), Vector2( 649.186, 339.253 ), Vector2( 646.549, 155.284 ), Vector2( 762.391, 174.155 ), Vector2( 868.892, 453.007 ), Vector2( 916.892, 517.007 ), Vector2( 916.892, 277.007 ), Vector2( 988.892, 293.007 ), Vector2( 1129.89, 421.007 ), Vector2( 801.892, 477.007 ), Vector2( 769.892, 461.007 ), Vector2( 769.892, 461.007 ), Vector2( 769.892, 461.007 ), Vector2( 769.892, 461.007 ), Vector2( 769.892, 461.007 ), Vector2( 769.892, 461.007 ), Vector2( 769.892, 461.007 ), Vector2( 769.892, 461.007 ), Vector2( 769.892, 461.007 ), Vector2( 769.892, 461.007 ), Vector2( 769.892, 461.007 ), Vector2( 1063.38, 480.622 ), Vector2( 958.383, 368.622 ), Vector2( 926.383, 352.622 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Swords:rotation_degrees")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 0.066, 0.132, 0.198, 0.264, 0.33, 0.396, 0.462, 0.528, 0.594, 0.66, 0.726, 0.792, 0.858, 0.924, 0.99, 1.056, 1.122, 1.188, 1.254, 1.32, 1.386, 1.452, 1.518, 1.584, 1.65 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -18.5072, -99.5603, -76.5939, 17.2765, 11.7236, -105.893, -60.8676, -91.2999, -76.0893, -63.7191, 17.3208, 14.416, 14.416, 14.416, 14.416, 14.416, 14.416, 14.416, 14.416, 14.416, 14.416, 14.416, -54.7746, -74.531, -94.6549 ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Body:shape:extents")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 0.066, 0.132, 0.198, 0.264, 0.33, 0.396, 0.462, 0.528, 0.594, 0.66, 0.726, 0.792, 0.858, 0.924, 0.99, 1.056, 1.122, 1.188, 1.254, 1.32, 1.386, 1.452, 1.518, 1.584, 1.65 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 121, 120.25 ), Vector2( 74, 112.75 ), Vector2( 75, 138 ), Vector2( 59.2201, 190.34 ), Vector2( 75, 138 ), Vector2( 75, 138 ), Vector2( 80.5, 152.877 ), Vector2( 80.5, 152.877 ), Vector2( 80.5, 152.877 ), Vector2( 80.5, 152.877 ), Vector2( 107.008, 85.5365 ), Vector2( 138.171, 59.5784 ), Vector2( 103.676, 59.5784 ), Vector2( 103.676, 59.5784 ), Vector2( 103.676, 59.5784 ), Vector2( 103.676, 59.5784 ), Vector2( 103.676, 59.5784 ), Vector2( 103.676, 59.5784 ), Vector2( 103.676, 59.5784 ), Vector2( 103.676, 59.5784 ), Vector2( 103.676, 59.5784 ), Vector2( 103.676, 59.5784 ), Vector2( 103.676, 59.5784 ), Vector2( 54.3238, 218.951 ), Vector2( 73.5409, 114.802 ), Vector2( 73.5409, 130.485 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/Body:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0, 0.066, 0.132, 0.198, 0.264, 0.33, 0.396, 0.462, 0.528, 0.594, 0.66, 0.726, 0.792, 0.858, 0.924, 0.99, 1.056, 1.122, 1.188, 1.254, 1.32, 1.386, 1.452, 1.518, 1.584, 1.65 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 465, 557.25 ), Vector2( 510, 508.75 ), Vector2( 565, 466 ), Vector2( 548.788, 335.599 ), Vector2( 725, 330 ), Vector2( 813, 354 ), Vector2( 792.972, 284.604 ), Vector2( 848.972, 292.604 ), Vector2( 912.972, 492.604 ), Vector2( 936.972, 500.604 ), Vector2( 946.395, 563.491 ), Vector2( 1016.14, 594.405 ), Vector2( 934.143, 572.569 ), Vector2( 934.143, 572.569 ), Vector2( 934.143, 572.569 ), Vector2( 934.143, 572.569 ), Vector2( 934.143, 572.569 ), Vector2( 934.143, 572.569 ), Vector2( 934.143, 572.569 ), Vector2( 934.143, 572.569 ), Vector2( 934.143, 572.569 ), Vector2( 934.143, 572.569 ), Vector2( 934.143, 572.569 ), Vector2( 906.966, 438.064 ), Vector2( 930.156, 551.727 ), Vector2( 915.686, 536.119 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Boss/Body:rotation_degrees")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0, 0.066, 0.132, 0.198, 0.264, 0.33, 0.396, 0.462, 0.528, 0.594, 0.66, 0.726, 0.792, 0.858, 0.924, 0.99, 1.056, 1.122, 1.188, 1.254, 1.32, 1.386, 1.452, 1.518, 1.584, 1.65 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 30.7043, 0.0, 6.33305, 0.0, 0.0, -29.437, -22.6007, 0.824419, 12.69, 11.5014, 13.8347, 9.74038, 9.74038, 9.74038, 9.74038, 9.74038, 9.74038, 9.74038, 9.74038, 9.74038, 9.74038, 9.74038, 6.56144, 5.59812, 5.59812 ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Boss/AnimatedSprite:flip_h")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("Boss/Swords:disabled")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("Boss/Body:disabled")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "DisappearUp"
+length = 0.25
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "IdleBlurry" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss/AnimatedSprite:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.25 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/Body:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 744, 482 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.15, 0.15 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Boss/Swords:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/AnimatedSprite:flip_h")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Detection Range/CollisionShape2D:disabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/8/type = "method"
+tracks/8/path = NodePath("Boss")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "_BlinkUp"
+} ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "Idle"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Idle" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 19, -67 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/Body:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 778.5, 509 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.3, 0.3 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Boss/Swords:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Swords:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 600, 506 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Swords:disabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/AnimatedSprite:visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Boss/AnimatedSprite:modulate")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Boss/Body:disabled")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("Boss/Body:shape:extents")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 53.5, 133 ) ]
+}
+
+[sub_resource type="Animation" id=13]
+resource_name = "IdleFlip"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Idle" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 19, 20 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/Body:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 743, 487 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.15, 0.15 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Boss/Swords:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Swords:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 600, 506 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Swords:disabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/AnimatedSprite:flip_h")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Boss/AnimatedSprite:modulate")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=20]
+resource_name = "IdleInvisible"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Idle" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 19, -67 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/Body:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 778.5, 509 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.3, 0.3 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Boss/Swords:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Swords:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 600, 506 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Swords:disabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/AnimatedSprite:visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Boss/AnimatedSprite:modulate")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Boss/Body:disabled")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("Boss/Body:shape:extents")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 53.5, 133 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss/Body:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 616, 506 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/Swords:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 751.5, 464.5 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss/Swords:shape:extents")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 65.5, 43.875 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/Swords:rotation_degrees")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Boss/Body:shape:extents")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 46, 67 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Body:rotation_degrees")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/Swords:disabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=8]
+resource_name = "Start"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Boss/AnimatedSprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Start" ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Boss:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, -105 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Boss/AnimatedSprite:playing")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Boss/Body:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 760, 506 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Boss/Swords:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Boss/AnimatedSprite:flip_h")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Boss/Detection Range/CollisionShape2D:disabled")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Boss/AnimatedSprite:modulate")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Boss/AnimatedSprite:scale")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.3, 0.3 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Boss/AnimatedSprite:position")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 760, 464 ) ]
+}
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Boss" type="Area2D" parent="." groups=["Enemy"]]
+collision_layer = 3
+collision_mask = 3
+script = SubResource( 23 )
+
+[node name="Body" type="CollisionShape2D" parent="Boss"]
+position = Vector2( 616, 506 )
+shape = SubResource( 2 )
+disabled = true
+
+[node name="Swords" type="CollisionShape2D" parent="Boss"]
+position = Vector2( 751.5, 464.5 )
+shape = SubResource( 9 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Boss"]
+modulate = Color( 1, 1, 1, 0 )
+material = ExtResource( 8 )
+position = Vector2( 760, 464 )
+scale = Vector2( 0.3, 0.3 )
+frames = SubResource( 1 )
+animation = "IdleBlurry"
+
+[node name="Detection Range" type="Area2D" parent="Boss"]
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Boss/Detection Range"]
+position = Vector2( 788.5, 430.348 )
+shape = SubResource( 3 )
+
+[node name="Tween" type="Tween" parent="Boss"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/AppearDown = SubResource( 14 )
+anims/AppearDownFlip = SubResource( 15 )
+anims/AppearUp = SubResource( 11 )
+anims/AppearUpFlip = SubResource( 12 )
+"anims/Attack 4" = SubResource( 19 )
+"anims/Attack 5" = SubResource( 22 )
+anims/Attack1 = SubResource( 4 )
+"anims/Attack1 Right" = SubResource( 10 )
+anims/Attack2 = SubResource( 16 )
+"anims/Attack2 Right" = SubResource( 17 )
+anims/Attack3 = SubResource( 18 )
+"anims/Attack3 Left" = SubResource( 21 )
+anims/DisappearUp = SubResource( 5 )
+anims/Idle = SubResource( 6 )
+anims/IdleFlip = SubResource( 13 )
+anims/IdleInvisible = SubResource( 20 )
+anims/RESET = SubResource( 7 )
+anims/Start = SubResource( 8 )
+
+[connection signal="body_entered" from="Boss" to="Boss" method="_on_Boss_body_entered"]
+[connection signal="body_exited" from="Boss" to="Boss" method="_on_Boss_body_exited"]
+[connection signal="body_entered" from="Boss/Detection Range" to="Boss" method="_on_Detection_Range_body_entered"]

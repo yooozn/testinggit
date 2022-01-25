@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Levels/Tileset/SparkForestLevels/Spark Forest Levels.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Levels/Level Scenes/Portal.tscn" type="PackedScene" id=2]
+
+[node name="Spark Forest 1-7" type="Node2D"]
+
+[node name="Spark Forest Levels" parent="." instance=ExtResource( 1 )]
+tile_data = PoolIntArray( 0, 5, 0 )
+
+[node name="Portal" parent="." instance=ExtResource( 2 )]
+position = Vector2( 974.004, 31.2151 )
+rotation = 1.5708
+next_scene_path = "res://Levels/Level Scenes/Spark Forest 1-4.tscn"

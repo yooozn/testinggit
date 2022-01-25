@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Characters/New/Orbis Animations/mackenzie/Mackenzie_Idle_Crouch-1.png" type="Texture" id=1]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 627.07
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "Neutral",
+"speed": 5.0
+} ]
+
+[node name="MackenzieCutsceneSparkForest1-2" type="Node2D"]
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Area2D"]
+frames = SubResource( 2 )
+animation = "Neutral"
+playing = true
+flip_h = true

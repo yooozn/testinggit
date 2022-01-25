@@ -1,0 +1,55 @@
+[gd_scene load_steps=29 format=2]
+
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Layer Group #1/Ghost_Slash-8.png" type="Texture" id=1]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Slash/Ghost_Walk-2.png" type="Texture" id=2]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Slash/Ghost_Walk-3.png" type="Texture" id=3]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Slash/Ghost_Walk-4.png" type="Texture" id=4]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Slash/Ghost_Walk-5.png" type="Texture" id=5]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Slash/Ghost_Walk-6.png" type="Texture" id=6]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Layer Group #1/Ghost_Slash-5.png" type="Texture" id=7]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Layer Group #1/Ghost_Slash-6.png" type="Texture" id=8]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Layer Group #1/Ghost_Slash-7.png" type="Texture" id=9]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Layer Group #1/Ghost_Slash-9.png" type="Texture" id=10]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Layer Group #1/Ghost_Slash-10.png" type="Texture" id=11]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Layer Group #1/Ghost_Slash-11.png" type="Texture" id=12]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Jump still/Ghost_Jump_Still-2.png" type="Texture" id=13]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Jump still/Ghost_Jump_Still-3.png" type="Texture" id=14]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Jump still/Ghost_Jump_Still-5.png" type="Texture" id=15]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Jump still/Ghost_Jump_Still-8.png" type="Texture" id=16]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Jump still/Ghost_Jump_Still-10.png" type="Texture" id=17]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Jump still/Ghost_Jump_Still-11.png" type="Texture" id=18]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Layer Group #1/Ghost_Slash-3.png" type="Texture" id=19]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Jump still/Ghost_Jump_Still-7.png" type="Texture" id=20]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Layer Group #1/Ghost_Slash-2.png" type="Texture" id=21]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Jump still/Ghost_Jump_Still-9.png" type="Texture" id=22]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Layer Group #1/Ghost_Slash-4.png" type="Texture" id=23]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Jump still/Ghost_Jump_Still-6.png" type="Texture" id=24]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Jump still/Ghost_Jump_Still-4.png" type="Texture" id=25]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Slash/Ghost_Walk-7.png" type="Texture" id=26]
+[ext_resource path="res://Characters/New/Orbis Animations/ghost/this one will work/Slash/Ghost_Walk-8.png" type="Texture" id=27]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 26 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "Walk",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 19 ), ExtResource( 23 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 1 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ) ],
+"loop": true,
+"name": "ghost slash",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 13 ), ExtResource( 14 ), ExtResource( 25 ), ExtResource( 15 ), ExtResource( 24 ), ExtResource( 20 ), ExtResource( 16 ), ExtResource( 22 ), ExtResource( 17 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "jump",
+"speed": 5.0
+} ]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "Walk"
+frame = 6
+playing = true

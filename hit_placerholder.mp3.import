@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/hit_placerholder.mp3-dadeca326dc6eaa1db2b325c88549883.mp3str"
+
+[deps]
+
+source_file="res://hit_placerholder.mp3"
+dest_files=[ "res://.import/hit_placerholder.mp3-dadeca326dc6eaa1db2b325c88549883.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

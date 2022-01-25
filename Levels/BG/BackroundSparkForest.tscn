@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Levels/BG/Untitled_Artwork-1.png" type="Texture" id=1]
+
+[node name="BackroundSparkForest" type="CanvasLayer"]
+layer = -3
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 519, 260 )
+scale = Vector2( 0.475, 0.425926 )
+texture = ExtResource( 1 )

@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Levels/SparkForestTitle.gd" type="Script" id=1]
+[ext_resource path="res://TitleOfplaces/Spark_Forest_Title.png" type="Texture" id=2]
+
+[node name="TitleIntroduction" type="Control"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SparkForest" type="TextureProgress" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+self_modulate = Color( 1, 1, 1, 0 )
+margin_right = 2048.0
+margin_bottom = 2048.0
+rect_scale = Vector2( 0.402454, 0.431997 )
+texture_progress = ExtResource( 2 )
+fill_mode = 8
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.01
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

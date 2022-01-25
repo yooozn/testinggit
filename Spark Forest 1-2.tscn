@@ -1,0 +1,154 @@
+[gd_scene load_steps=18 format=2]
+
+[ext_resource path="res://Characters/Player/Room_2 blueprint.png" type="Texture" id=1]
+[ext_resource path="res://Characters/Player/player2.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Characters/clouds.png" type="Texture" id=3]
+[ext_resource path="res://Levels/Tileset/Seamless/corner piece 256.png" type="Texture" id=4]
+[ext_resource path="res://Levels/Tileset/Seamless/256.png" type="Texture" id=5]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+points = PoolVector2Array( 2048, 510.474, 2048, 628.669, 661.04, 620.72, 658.16, 512.72 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 145.52, 678.435, 0, 672.215, 0, 585.123, 145.52, 585.123 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+points = PoolVector2Array( 566.461, 873.354, 547.799, 881.648, 386.058, 877.501, 346.659, 806.999, 585.123, 806.999 )
+
+[sub_resource type="ConvexPolygonShape2D" id=4]
+points = PoolVector2Array( 410.941, 1168.43, 234.685, 1168.43, 195.286, 1097.92, 433.751, 1100 )
+
+[sub_resource type="ConvexPolygonShape2D" id=5]
+points = PoolVector2Array( 578.903, 1241, 1167.81, 1247.22, 1165.73, 1350.9, 578.903, 1342.61 )
+
+[sub_resource type="ConvexPolygonShape2D" id=6]
+points = PoolVector2Array( 2048, 1344.68, 1752.56, 1344.68, 1752.56, 1245.15, 2048, 1245.15 )
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+points = PoolVector2Array( 294.819, 1605.96, 265.789, 1674.38, 89.5328, 1672.31, 50.1345, 1603.88 )
+
+[sub_resource type="ConvexPolygonShape2D" id=8]
+points = PoolVector2Array( 2048, 2048, 444.118, 2048, 444.118, 1970.91, 2048, 1970.91 )
+
+[sub_resource type="ConvexPolygonShape2D" id=9]
+points = PoolVector2Array( 1557.64, 1680.6, 1379.31, 1680.6, 1335.77, 1608.03, 1582.53, 1612.18 )
+
+[sub_resource type="TileSet" id=10]
+0/name = "Room_2 blueprint.png 0"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 2048, 2048 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 4 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 6 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 8 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 9 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+0/z_index = 0
+
+[sub_resource type="TileSet" id=11]
+0/name = "clouds.png 0"
+0/texture = ExtResource( 3 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 1088, 1088 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shapes = [  ]
+0/z_index = 0
+
+[sub_resource type="TileSet" id=12]
+0/name = "corner piece 256.png 0"
+0/texture = ExtResource( 4 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 256, 256 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shapes = [  ]
+0/z_index = 0
+1/name = "256.png 1"
+1/texture = ExtResource( 5 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 256, 256 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shapes = [  ]
+1/z_index = 0
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Spark Forest 1-2" type="TileMap" parent="."]
+tile_set = SubResource( 10 )
+format = 1
+tile_data = PoolIntArray( 0, 0, 0 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1200.61, 464.386 )
+
+[node name="Shouldent be black" type="TileMap" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+tile_set = SubResource( 11 )
+format = 1
+tile_data = PoolIntArray( -1048593, -1073741824, 0, -1114112, -1073741824, 0, -1114095, -1073741824, 0, -1114078, -1073741824, 0, 65519, -1073741824, 0, 32, -1073741824, 0, 1179631, -1073741824, 0, 1114144, -1073741824, 0, 2162671, -1073741824, 0, 2162686, -1073741824, 0, 2097167, -1073741824, 0, 2228256, -1073741824, 0 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource( 12 )
+format = 1

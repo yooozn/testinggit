@@ -1,0 +1,227 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://Characters/New/Orbis Animations/Colin/Colin_Attack_1-1.png" type="Texture" id=16]
+[ext_resource path="res://Characters/New/Orbis Animations/Colin/Colin_Attack_1-2.png" type="Texture" id=17]
+[ext_resource path="res://Characters/New/Orbis Animations/Colin/Colin_Attack_1-3.png" type="Texture" id=19]
+[ext_resource path="res://Characters/New/Orbis Animations/Colin/Colin_Attack_1-7.png" type="Texture" id=20]
+[ext_resource path="res://Characters/New/Orbis Animations/Colin/Colin_Attack_1-8.png" type="Texture" id=21]
+[ext_resource path="res://Characters/New/Orbis Animations/Colin/Colin_Attack_1-4.png" type="Texture" id=22]
+[ext_resource path="res://Characters/New/Orbis Animations/Colin/Colin_Attack_1-5.png" type="Texture" id=23]
+[ext_resource path="res://Characters/New/Orbis Animations/Colin/Colin_Attack_1-6.png" type="Texture" id=24]
+[ext_resource path="res://Characters/New/Orbis Animations/Colin/Colin_Attack_1-9.png" type="Texture" id=25]
+[ext_resource path="res://Characters/New/Orbis Animations/Colin/Colin_Attack_1-10.png" type="Texture" id=26]
+[ext_resource path="res://Characters/New/Orbis Animations/Colin/Colin_Attack_2-4.png" type="Texture" id=28]
+[ext_resource path="res://Characters/New/Orbis Animations/Colin/Colin_Attack_2-2.png" type="Texture" id=30]
+[ext_resource path="res://Characters/New/Orbis Animations/Colin/Colin_Attack_2-3.png" type="Texture" id=31]
+[ext_resource path="res://Characters/New/Orbis Animations/Colin/Colin_Attack_1-11.png" type="Texture" id=32]
+
+[sub_resource type="Animation" id=1]
+resource_name = "Colin Attack 1"
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimationPlayer/Colin_Attack_1-2:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 17 ), null ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ null, ExtResource( 19 ), null ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0.1, 0.2, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ null, ExtResource( 22 ), null ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5:texture")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0.2, 0.3, 0.4 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ null, ExtResource( 23 ), null ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6:texture")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0.3, 0.4, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ null, ExtResource( 24 ), null ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7:texture")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0.4, 0.5, 0.6 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ null, ExtResource( 20 ), null ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7/Colin_Attack_1-8:texture")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0.5, 0.6, 0.7 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ null, ExtResource( 21 ), null ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7/Colin_Attack_1-8/Colin_Attack_1-9:texture")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0.6, 0.7, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ null, ExtResource( 25 ), null ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7/Colin_Attack_1-8/Colin_Attack_1-9/Colin_Attack_1-10:texture")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ null, ExtResource( 26 ), null ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7/Colin_Attack_1-8/Colin_Attack_1-9/Colin_Attack_1-10/Colin_Attack_1-11:texture")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0.8, 0.9, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ null, ExtResource( 32 ), null ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "Colin Attack 2"
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7/Colin_Attack_1-8/Colin_Attack_1-9/Colin_Attack_1-10/Colin_Attack_1-11/Colin_Attack_2-2:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 30 ), null ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7/Colin_Attack_1-8/Colin_Attack_1-9/Colin_Attack_1-10/Colin_Attack_1-11/Colin_Attack_2-2/Colin_Attack_2-3:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ null, ExtResource( 31 ), null ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7/Colin_Attack_1-8/Colin_Attack_1-9/Colin_Attack_1-10/Colin_Attack_1-11/Colin_Attack_2-2/Colin_Attack_2-3/Colin_Attack_2-4:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0.1, 0.2, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ null, ExtResource( 28 ), null ]
+}
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+"anims/Colin Attack 1" = SubResource( 1 )
+"anims/Colin Attack 2" = SubResource( 2 )
+
+[node name="Colin_Attack_1-1" type="Sprite" parent="AnimationPlayer"]
+position = Vector2( 417.546, 244.89 )
+texture = ExtResource( 16 )
+
+[node name="Colin_Attack_1-2" type="Sprite" parent="AnimationPlayer"]
+position = Vector2( 41.7605, 133.341 )
+
+[node name="Colin_Attack_1-3" type="Sprite" parent="AnimationPlayer/Colin_Attack_1-2"]
+position = Vector2( 76.3823, -0.319824 )
+
+[node name="Colin_Attack_1-4" type="Sprite" parent="AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3"]
+position = Vector2( 53.3937, 149.502 )
+
+[node name="Colin_Attack_1-5" type="Sprite" parent="AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4"]
+position = Vector2( 104.117, 122.805 )
+
+[node name="Colin_Attack_1-6" type="Sprite" parent="AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5"]
+position = Vector2( -77.4207, -64.0723 )
+
+[node name="Colin_Attack_1-7" type="Sprite" parent="AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6"]
+position = Vector2( 154.841, 202.896 )
+
+[node name="Colin_Attack_1-8" type="Sprite" parent="AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7"]
+position = Vector2( 293.665, 114.796 )
+
+[node name="Colin_Attack_1-9" type="Sprite" parent="AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7/Colin_Attack_1-8"]
+position = Vector2( 149.502, -381.764 )
+
+[node name="Colin_Attack_1-10" type="Sprite" parent="AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7/Colin_Attack_1-8/Colin_Attack_1-9"]
+position = Vector2( -104.665, -63.6228 )
+
+[node name="Colin_Attack_1-11" type="Sprite" parent="AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7/Colin_Attack_1-8/Colin_Attack_1-9/Colin_Attack_1-10"]
+position = Vector2( -35.9592, 26.9695 )
+
+[node name="Colin_Attack_2-2" type="Sprite" parent="AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7/Colin_Attack_1-8/Colin_Attack_1-9/Colin_Attack_1-10/Colin_Attack_1-11"]
+position = Vector2( -455.485, -32.9628 )
+
+[node name="Colin_Attack_2-3" type="Sprite" parent="AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7/Colin_Attack_1-8/Colin_Attack_1-9/Colin_Attack_1-10/Colin_Attack_1-11/Colin_Attack_2-2"]
+position = Vector2( 77.912, 137.844 )
+
+[node name="Colin_Attack_2-4" type="Sprite" parent="AnimationPlayer/Colin_Attack_1-2/Colin_Attack_1-3/Colin_Attack_1-4/Colin_Attack_1-5/Colin_Attack_1-6/Colin_Attack_1-7/Colin_Attack_1-8/Colin_Attack_1-9/Colin_Attack_1-10/Colin_Attack_1-11/Colin_Attack_2-2/Colin_Attack_2-3"]
+position = Vector2( 89.8984, 107.878 )
